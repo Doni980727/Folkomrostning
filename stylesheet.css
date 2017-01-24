@@ -1,0 +1,47 @@
+header{
+	font-family: 'Montserrat', sans-serif;
+	height: 774px;
+	background-image: url("./images/buss.jpg");
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	display: block;
+}
+
+.parallax{
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+
+header div{
+	margin-top: 325px;
+}
+
+.container{
+	margin-top: 125px;
+}
+
+.container p{
+	font-size: 25px;
+	margin-bottom: 75px;
+}
+.container h1{
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+form{
+	margin-left: 300px;
+	margin-bottom: 70px;
+}
+
+button{
+	margin-left: 225px;
+}
+
+footer{
+	height: 250px;
+	background-color: #f1f1f1;
+}
