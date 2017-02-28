@@ -1,12 +1,14 @@
 <!doctype html>
-<html>
+<html lang="sv">
 
 <head>
 
 	<meta charset="utf-8">
 	<title>Folkomröstning</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
@@ -24,13 +26,13 @@
 
 	<div class="container">
 
-		<p><!--Det är väldigt många ungdomar och vuxna som inte använder bil och behöver pendla 
+		<p>Det är väldigt många ungdomar och vuxna som inte använder bil och behöver pendla 
     flera mil åt gången varje dag och måste planera efter busstiderna, folk måste 
     vakna tidigt och ta första bästa bussen för att komma in till stad i lämplig tid. 
     Det blir samtidigt väldigt stressigt att hinna med bussarna hem, vad kan vi göra åt detta?
     Vi vill lägga in fler busslinjer som åker ut till städerna utanför staden så att folk inte 
     behöver stressa sig till bussen eller planera runt busstiderna. Fler busslinjer hjälper 
-    också till med mindre bilkörningen. Så det finns väldigt mycket positivt med fler busslinjer.-->Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    också till med mindre bilkörningen. Så det finns väldigt mycket positivt med fler busslinjer. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -43,32 +45,32 @@
 			<div class="form-group">
     <label for="exampleInputName2" class="col-sm-2 control-label">Förnamn</label>
     <div class="col-sm-4">
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Dino">
+    <input type="text" name="firstname" class="form-control" id="exampleInputName2" placeholder="Dino">
     </div>
   </div>
 
   <div class="form-group">
     <label for="exampleInputName2" class="col-sm-2 control-label">Efternamn</label>
     <div class="col-sm-4">
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Felarca">
+    <input type="text" name="lastname" class="form-control" id="exampleInputName2" placeholder="Felarca">
     </div>
   </div>
 
   <div class="form-group">
     <label for="exampleInputName2" class="col-sm-2 control-label">Ort</label>
     <div class="col-sm-4">
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Umeå">
+    <input type="text" name="city" class="form-control" id="exampleInputName2" placeholder="Umeå">
     </div>
   </div>
 
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Mail</label>
     <div class="col-sm-4">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="xxxx@xxxx.xxx">
+      <input type="text" name="email" class="form-control" id="inputEmail3" placeholder="xxxx@xxxx.xxx">
     </div>
   </div>
 
-  <button type="submit" class="btn btn-default">Skicka in!</button>
+  <button class="btn btn-default">Skicka in!</button>
 
 
 </form>
