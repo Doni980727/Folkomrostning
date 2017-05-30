@@ -37,8 +37,18 @@ form{
 	margin-bottom: 70px;
 }
 
-button{
-	margin-left: 225px;
+.button{
+	margin-left: 22%;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #333;
 }
 
 footer{

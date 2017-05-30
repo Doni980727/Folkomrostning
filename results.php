@@ -37,7 +37,9 @@ if ($result->num_rows > 0) {
          echo "<tr><td>" . $row["id"]. "</td><td>" . $row["firstname"]. " " . $row["lastname"]. "</td><td>" . $row["city"]. "</td><td>" . $row["email"]. "</td></tr>";
      }
      echo "</table>";
-} else {
+     echo "<a href='index.html' class='btn btn-default' role='button'>Till starsidan</a>";
+ }   
+else {
      echo "0 results";
 }
 
